@@ -8,4 +8,7 @@ module.exports = {
   login: (request, response) => {
     response.render("login");
   },
+  register: (request, responde) => {
+    responde.render("register");
+  },
 };
